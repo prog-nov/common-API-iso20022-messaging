@@ -1111,7 +1111,7 @@ paths:
               schema:
                 type: object
                 properties:
-                  application:
+                  financingRequest:
                     $ref: '#/components/schemas/FinancingRequest'
           headers:
             X-Correlation-ID:
