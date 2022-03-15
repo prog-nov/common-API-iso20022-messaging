@@ -2554,6 +2554,7 @@ components:
           enum:
             - individual
             - legal_entity
+            - child
         applicantDetail:
           type: object
           properties:
