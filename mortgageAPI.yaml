@@ -2286,8 +2286,6 @@ components:
     ProductVariation:
       description: Product variation details
       type: object
-      required:
-        - duration
       properties:
         duration:
           type: integer
@@ -2322,7 +2320,6 @@ components:
         - productId
         - names
         - interestRateType
-        - productVariations
       properties:
         productId:
           type: string
