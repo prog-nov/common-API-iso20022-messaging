@@ -2141,6 +2141,10 @@ components:
               $ref: '#/components/schemas/Date'
         purchaseDate:
           $ref: '#/components/schemas/Date'
+          description: 'Date of public notarization.'
+        transferOfOwnershipDate:
+          $ref: '#/components/schemas/Date'
+          description: 'When the property was fully transfered to the new owner.'
         remarks:
           type: string
     # ---------
