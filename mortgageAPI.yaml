@@ -2139,8 +2139,6 @@ components:
               $ref: '#/components/schemas/Amount'
             estimationDate:
               $ref: '#/components/schemas/Date'
-        purchaseDate:
-          $ref: '#/components/schemas/Date'
         remarks:
           type: string
     # ---------
