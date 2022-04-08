@@ -2141,6 +2141,9 @@ components:
               $ref: '#/components/schemas/Date'
         purchaseDate:
           $ref: '#/components/schemas/Date'
+          description: 'Date of public notarization. Deprecated, will be removed in release v3.x'
+        publicNotarization:
+          $ref: '#/components/schemas/Date'
           description: 'Date of public notarization.'
         transferOfOwnershipDate:
           $ref: '#/components/schemas/Date'
