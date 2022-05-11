@@ -2740,6 +2740,7 @@ components:
       enum:
         - employment_gross
         - employment_net
+        - self_employment
         - self_employment_year-1
         - self_employment_year-2
         - self_employment_year-3
