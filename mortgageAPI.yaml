@@ -1111,8 +1111,10 @@ paths:
               schema:
                 type: object
                 properties:
-                  financingRequest:
-                    $ref: '#/components/schemas/FinancingRequest'
+                  offerList:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/FinancingRequest'
           headers:
             X-Correlation-ID:
               schema:
@@ -1857,10 +1859,9 @@ components:
           example:
             This is the general problem description
         detail:
-          type: array
-          items:
-            type: string
-            example: List of detailed problem description with respect to the current request
+          type: string
+          example:
+            Detailed problem description with respect to the current request
         instance:
           type: string
           example:
