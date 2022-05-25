@@ -2057,6 +2057,11 @@ components:
               enum: [garden_flat, floor_flat, roof_flat, attic]
               description: 'The type of the appartment (floor, garden level, storey).'
               example: 'floor_flat'
+            buildingType:
+              type: string
+              enum: [multiple_family_house, terrace_house]
+              description: 'The type of the building (multiple_family_house, terrace_house).'
+              example: 'multiple_family_house'
             locationInTheBuildingRating:
               $ref: '#/components/schemas/PropertyObjectRatingType'
         propertyBuildingInformation:
